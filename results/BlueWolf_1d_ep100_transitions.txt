@@ -1,0 +1,831 @@
+BlueWolf_1d ep100 observed transition matrix
+====================================================
+checkpoint: results\BlueWolf_1d_ep100.pkl
+episode: 100
+epsilon: 0.3028852182453639
+observed states: 55
+recorded transitions: 603
+policy states: 55
+
+State Index
+----------------------------------------------------
+S001
+  log_bucket=0, plank_bucket=0, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=17 (get_wood)
+S002
+  log_bucket=0, plank_bucket=0, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=60 (pick_up_material)
+S003
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=2 (move_east)
+S004
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=1 (move_south)
+S005
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=68 (place_dirt)
+S006
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=95 (hit_vegetation)
+S007
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=61 (action_61)
+S008
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=2 (move_east)
+S009 GOAL_FULL_WOOD_TOOLS
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=True, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=0 (move_north)
+S010
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=0 (move_north)
+S011
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=17 (get_wood)
+S012
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=6 (place_forward)
+S013 GOAL_FULL_WOOD_TOOLS
+  log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=True, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=0 (move_north)
+S014
+  log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=0 (move_north)
+S015
+  log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=165 (dig_overhang)
+S016
+  log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=3 (move_west)
+S017
+  log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=6 (place_forward)
+S018
+  log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=3 (move_west)
+S019
+  log_bucket=0, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=17 (get_wood)
+S020
+  log_bucket=0, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=95 (hit_vegetation)
+S021
+  log_bucket=0, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=60 (pick_up_material)
+S022
+  log_bucket=0, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=2 (move_east)
+S023
+  log_bucket=0, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=60 (pick_up_material)
+S024
+  log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=95 (hit_vegetation)
+S025
+  log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=61 (action_61)
+S026
+  log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=19 (craft_wooden_axe)
+S027 GOAL_FULL_WOOD_TOOLS
+  log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=True, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=0 (move_north)
+S028
+  log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=13 (craft_wooden_sword)
+S029
+  log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=94 (pick_up_planks)
+S030
+  log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=20 (craft_wooden_shovel)
+S031
+  log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=7 (noop)
+S032
+  log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=71 (craft_wooden_hoe)
+S033
+  log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=65 (place_plank)
+S034
+  log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=167 (dig_diagonal)
+S035
+  log_bucket=1, plank_bucket=0, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=8 (craft_planks)
+S036
+  log_bucket=1, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=1 (move_south)
+S037
+  log_bucket=1, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=8 (craft_planks)
+S038
+  log_bucket=1, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=8 (craft_planks)
+S039
+  log_bucket=1, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=8 (craft_planks)
+S040
+  log_bucket=1, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=2 (move_east)
+S041
+  log_bucket=1, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=68 (place_dirt)
+S042
+  log_bucket=1, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=9 (craft_sticks)
+S043
+  log_bucket=1, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=17 (get_wood)
+S044
+  log_bucket=1, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=9 (craft_sticks)
+S045
+  log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=9 (craft_sticks)
+S046
+  log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=50 (climb_up)
+S047
+  log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=8 (craft_planks)
+S048
+  log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=11 (craft_wooden_pickaxe)
+S049
+  log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=96 (break_nodrop)
+S050
+  log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=94 (pick_up_planks)
+S051
+  log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=0 (move_north)
+S052
+  log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=False, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=10 (craft_crafting_table)
+S053
+  log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=60 (pick_up_material)
+S054
+  log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=9 (craft_sticks)
+S055
+  log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  policy_action=0 (move_north)
+
+Observed Transitions
+----------------------------------------------------
+S001: log_bucket=0, plank_bucket=0, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=2
+    -> S001: count=2, prob=1.0000
+  action 1 (move_south), total_count=2
+    -> S001: count=1, prob=0.5000
+    -> S002: count=1, prob=0.5000
+  action 2 (move_east), total_count=3
+    -> S001: count=3, prob=1.0000
+  action 3 (move_west), total_count=2
+    -> S001: count=2, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S002: count=1, prob=1.0000
+  action 50 (climb_up), total_count=2
+    -> S001: count=2, prob=1.0000
+  action 60 (pick_up_material), total_count=1
+    -> S002: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=2
+    -> S001: count=2, prob=1.0000
+  action 95 (hit_vegetation), total_count=3
+    -> S001: count=3, prob=1.0000
+  action 96 (break_nodrop), total_count=3
+    -> S001: count=3, prob=1.0000
+  action 161 (dig_below), total_count=1
+    -> S001: count=1, prob=1.0000
+  action 167 (dig_diagonal), total_count=2
+    -> S001: count=2, prob=1.0000
+
+S002: log_bucket=0, plank_bucket=0, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=28
+    -> S002: count=28, prob=1.0000
+  action 1 (move_south), total_count=39
+    -> S001: count=1, prob=0.0256
+    -> S002: count=38, prob=0.9744
+  action 2 (move_east), total_count=31
+    -> S002: count=31, prob=1.0000
+  action 3 (move_west), total_count=22
+    -> S001: count=1, prob=0.0455
+    -> S002: count=21, prob=0.9545
+  action 6 (place_forward), total_count=14
+    -> S002: count=14, prob=1.0000
+  action 7 (noop), total_count=27
+    -> S002: count=27, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S002: count=1, prob=1.0000
+  action 50 (climb_up), total_count=14
+    -> S001: count=1, prob=0.0714
+    -> S002: count=13, prob=0.9286
+  action 60 (pick_up_material), total_count=3
+    -> S002: count=2, prob=0.6667
+    -> S035: count=1, prob=0.3333
+  action 68 (place_dirt), total_count=13
+    -> S002: count=13, prob=1.0000
+  action 69 (dig_forward), total_count=4
+    -> S002: count=4, prob=1.0000
+  action 96 (break_nodrop), total_count=14
+    -> S002: count=14, prob=1.0000
+  action 161 (dig_below), total_count=5
+    -> S002: count=5, prob=1.0000
+  action 165 (dig_overhang), total_count=2
+    -> S002: count=2, prob=1.0000
+  action 167 (dig_diagonal), total_count=5
+    -> S002: count=5, prob=1.0000
+
+S003: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S003: count=1, prob=1.0000
+  action 2 (move_east), total_count=2
+    -> S003: count=1, prob=0.5000
+    -> S004: count=1, prob=0.5000
+  action 3 (move_west), total_count=1
+    -> S003: count=1, prob=1.0000
+  action 17 (get_wood), total_count=3
+    -> S003: count=2, prob=0.6667
+    -> S004: count=1, prob=0.3333
+  action 95 (hit_vegetation), total_count=1
+    -> S003: count=1, prob=1.0000
+
+S004: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 1 (move_south), total_count=1
+    -> S037: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S003: count=1, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S004: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S004: count=1, prob=1.0000
+
+S005: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 1 (move_south), total_count=1
+    -> S005: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S003: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=1
+    -> S005: count=1, prob=1.0000
+
+S006: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 95 (hit_vegetation), total_count=1
+    -> S005: count=1, prob=1.0000
+
+S007: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 61 (action_61), total_count=1
+    -> S010: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S008: count=1, prob=1.0000
+
+S008: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 2 (move_east), total_count=1
+    -> S007: count=1, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S007: count=1, prob=1.0000
+  action 167 (dig_diagonal), total_count=1
+    -> S008: count=1, prob=1.0000
+
+S009: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=True, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=48
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=48, prob=1.0000
+  action 1 (move_south), total_count=2
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=2, prob=1.0000
+  action 2 (move_east), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 3 (move_west), total_count=5
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=5, prob=1.0000
+  action 5 (mine_forward), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 7 (noop), total_count=4
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=4, prob=1.0000
+  action 23 (mine_coal), total_count=5
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=5, prob=1.0000
+  action 44 (drop_dirt), total_count=2
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=2, prob=1.0000
+  action 50 (climb_up), total_count=2
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=2, prob=1.0000
+  action 59 (pick_up_ore), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 63 (action_63), total_count=3
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=3, prob=1.0000
+  action 68 (place_dirt), total_count=4
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=4, prob=1.0000
+  action 70 (mine_stone), total_count=3
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=3, prob=1.0000
+  action 73 (till_soil), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=4
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=4, prob=1.0000
+  action 164 (mine_overhang), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 165 (dig_overhang), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 166 (mine_diagonal), total_count=1
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+
+S010: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S006: count=1, prob=1.0000
+
+S011: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S011: count=1, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S012: count=1, prob=1.0000
+
+S012: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S012: count=1, prob=1.0000
+  action 2 (move_east), total_count=1
+    -> S012: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S038: count=1, prob=1.0000
+  action 50 (climb_up), total_count=1
+    -> S012: count=1, prob=1.0000
+  action 60 (pick_up_material), total_count=1
+    -> S011: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=2
+    -> S012: count=2, prob=1.0000
+  action 161 (dig_below), total_count=1
+    -> S012: count=1, prob=1.0000
+  action 167 (dig_diagonal), total_count=1
+    -> S012: count=1, prob=1.0000
+
+S013: log_bucket=0, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=True, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S013 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 1 (move_south), total_count=1
+    -> S013 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=2
+    -> S009 GOAL_FULL_WOOD_TOOLS: count=1, prob=0.5000
+    -> S013 GOAL_FULL_WOOD_TOOLS: count=1, prob=0.5000
+  action 166 (mine_diagonal), total_count=1
+    -> S013 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+
+S014: log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S015: count=1, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S014: count=1, prob=1.0000
+  action 50 (climb_up), total_count=1
+    -> S014: count=1, prob=1.0000
+
+S015: log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 96 (break_nodrop), total_count=1
+    -> S015: count=1, prob=1.0000
+  action 165 (dig_overhang), total_count=1
+    -> S039: count=1, prob=1.0000
+
+S016: log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 3 (move_west), total_count=1
+    -> S018: count=1, prob=1.0000
+  action 69 (dig_forward), total_count=1
+    -> S018: count=1, prob=1.0000
+
+S017: log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 6 (place_forward), total_count=1
+    -> S034: count=1, prob=1.0000
+  action 7 (noop), total_count=1
+    -> S017: count=1, prob=1.0000
+  action 44 (drop_dirt), total_count=1
+    -> S017: count=1, prob=1.0000
+  action 73 (till_soil), total_count=1
+    -> S018: count=1, prob=1.0000
+  action 94 (pick_up_planks), total_count=2
+    -> S017: count=2, prob=1.0000
+
+S018: log_bucket=0, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=4
+    -> S018: count=4, prob=1.0000
+  action 1 (move_south), total_count=5
+    -> S016: count=1, prob=0.2000
+    -> S017: count=1, prob=0.2000
+    -> S018: count=3, prob=0.6000
+  action 2 (move_east), total_count=2
+    -> S018: count=2, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S017: count=1, prob=1.0000
+  action 6 (place_forward), total_count=2
+    -> S018: count=2, prob=1.0000
+  action 7 (noop), total_count=3
+    -> S016: count=1, prob=0.3333
+    -> S018: count=2, prob=0.6667
+  action 17 (get_wood), total_count=1
+    -> S018: count=1, prob=1.0000
+  action 50 (climb_up), total_count=2
+    -> S018: count=1, prob=0.5000
+    -> S034: count=1, prob=0.5000
+  action 60 (pick_up_material), total_count=2
+    -> S018: count=2, prob=1.0000
+  action 68 (place_dirt), total_count=2
+    -> S018: count=2, prob=1.0000
+  action 69 (dig_forward), total_count=2
+    -> S018: count=2, prob=1.0000
+  action 73 (till_soil), total_count=2
+    -> S018: count=2, prob=1.0000
+  action 94 (pick_up_planks), total_count=1
+    -> S018: count=1, prob=1.0000
+  action 95 (hit_vegetation), total_count=1
+    -> S018: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=2
+    -> S018: count=2, prob=1.0000
+
+S019: log_bucket=0, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S020: count=1, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S019: count=1, prob=1.0000
+  action 7 (noop), total_count=1
+    -> S019: count=1, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S021: count=1, prob=1.0000
+  action 65 (place_plank), total_count=1
+    -> S019: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=2
+    -> S019: count=2, prob=1.0000
+  action 167 (dig_diagonal), total_count=1
+    -> S019: count=1, prob=1.0000
+
+S020: log_bucket=0, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S020: count=1, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S020: count=1, prob=1.0000
+  action 95 (hit_vegetation), total_count=1
+    -> S019: count=1, prob=1.0000
+  action 161 (dig_below), total_count=1
+    -> S020: count=1, prob=1.0000
+
+S021: log_bucket=0, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 60 (pick_up_material), total_count=1
+    -> S042: count=1, prob=1.0000
+
+S022: log_bucket=0, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 1 (move_south), total_count=1
+    -> S022: count=1, prob=1.0000
+  action 2 (move_east), total_count=2
+    -> S022: count=1, prob=0.5000
+    -> S023: count=1, prob=0.5000
+  action 161 (dig_below), total_count=1
+    -> S022: count=1, prob=1.0000
+
+S023: log_bucket=0, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 60 (pick_up_material), total_count=1
+    -> S043: count=1, prob=1.0000
+  action 95 (hit_vegetation), total_count=2
+    -> S023: count=2, prob=1.0000
+
+S024: log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S024: count=1, prob=1.0000
+  action 3 (move_west), total_count=2
+    -> S024: count=2, prob=1.0000
+  action 6 (place_forward), total_count=2
+    -> S024: count=2, prob=1.0000
+  action 10 (craft_crafting_table), total_count=1
+    -> S008: count=1, prob=1.0000
+  action 60 (pick_up_material), total_count=2
+    -> S024: count=1, prob=0.5000
+    -> S045: count=1, prob=0.5000
+  action 65 (place_plank), total_count=1
+    -> S024: count=1, prob=1.0000
+  action 95 (hit_vegetation), total_count=1
+    -> S045: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=2
+    -> S024: count=2, prob=1.0000
+  action 165 (dig_overhang), total_count=1
+    -> S024: count=1, prob=1.0000
+
+S025: log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=2
+    -> S025: count=2, prob=1.0000
+  action 1 (move_south), total_count=1
+    -> S025: count=1, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S025: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S025: count=1, prob=1.0000
+  action 61 (action_61), total_count=1
+    -> S026: count=1, prob=1.0000
+  action 69 (dig_forward), total_count=1
+    -> S025: count=1, prob=1.0000
+
+S026: log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 1 (move_south), total_count=1
+    -> S026: count=1, prob=1.0000
+  action 19 (craft_wooden_axe), total_count=1
+    -> S027 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 20 (craft_wooden_shovel), total_count=1
+    -> S026: count=1, prob=1.0000
+
+S027: log_bucket=0, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=True, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 44 (drop_dirt), total_count=1
+    -> S027 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 65 (place_plank), total_count=1
+    -> S027 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+  action 70 (mine_stone), total_count=1
+    -> S027 GOAL_FULL_WOOD_TOOLS: count=1, prob=1.0000
+
+S028: log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 13 (craft_wooden_sword), total_count=1
+    -> S030: count=1, prob=1.0000
+
+S029: log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 17 (get_wood), total_count=1
+    -> S029: count=1, prob=1.0000
+  action 65 (place_plank), total_count=1
+    -> S029: count=1, prob=1.0000
+  action 94 (pick_up_planks), total_count=1
+    -> S055: count=1, prob=1.0000
+
+S030: log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S031: count=1, prob=1.0000
+  action 1 (move_south), total_count=1
+    -> S030: count=1, prob=1.0000
+  action 2 (move_east), total_count=2
+    -> S030: count=1, prob=0.5000
+    -> S031: count=1, prob=0.5000
+  action 9 (craft_sticks), total_count=1
+    -> S030: count=1, prob=1.0000
+  action 13 (craft_wooden_sword), total_count=1
+    -> S030: count=1, prob=1.0000
+  action 20 (craft_wooden_shovel), total_count=1
+    -> S014: count=1, prob=1.0000
+
+S031: log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 7 (noop), total_count=1
+    -> S030: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S030: count=1, prob=1.0000
+
+S032: log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 71 (craft_wooden_hoe), total_count=1
+    -> S034: count=1, prob=1.0000
+
+S033: log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 65 (place_plank), total_count=1
+    -> S034: count=1, prob=1.0000
+
+S034: log_bucket=0, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S034: count=1, prob=1.0000
+  action 1 (move_south), total_count=2
+    -> S034: count=2, prob=1.0000
+  action 2 (move_east), total_count=2
+    -> S034: count=2, prob=1.0000
+  action 3 (move_west), total_count=2
+    -> S033: count=1, prob=0.5000
+    -> S034: count=1, prob=0.5000
+  action 6 (place_forward), total_count=3
+    -> S018: count=1, prob=0.3333
+    -> S034: count=2, prob=0.6667
+  action 7 (noop), total_count=1
+    -> S034: count=1, prob=1.0000
+  action 20 (craft_wooden_shovel), total_count=2
+    -> S012: count=1, prob=0.5000
+    -> S034: count=1, prob=0.5000
+  action 50 (climb_up), total_count=1
+    -> S034: count=1, prob=1.0000
+  action 60 (pick_up_material), total_count=1
+    -> S034: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S034: count=1, prob=1.0000
+  action 69 (dig_forward), total_count=2
+    -> S034: count=2, prob=1.0000
+  action 73 (till_soil), total_count=2
+    -> S034: count=2, prob=1.0000
+  action 165 (dig_overhang), total_count=1
+    -> S034: count=1, prob=1.0000
+  action 167 (dig_diagonal), total_count=1
+    -> S018: count=1, prob=1.0000
+
+S035: log_bucket=1, plank_bucket=0, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 2 (move_east), total_count=1
+    -> S035: count=1, prob=1.0000
+  action 8 (craft_planks), total_count=1
+    -> S041: count=1, prob=1.0000
+
+S036: log_bucket=1, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S036: count=1, prob=1.0000
+  action 1 (move_south), total_count=2
+    -> S037: count=2, prob=1.0000
+  action 7 (noop), total_count=1
+    -> S036: count=1, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S037: count=1, prob=1.0000
+  action 50 (climb_up), total_count=1
+    -> S036: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S036: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=2
+    -> S036: count=1, prob=0.5000
+    -> S037: count=1, prob=0.5000
+  action 161 (dig_below), total_count=1
+    -> S036: count=1, prob=1.0000
+
+S037: log_bucket=1, plank_bucket=0, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=2
+    -> S036: count=1, prob=0.5000
+    -> S037: count=1, prob=0.5000
+  action 1 (move_south), total_count=1
+    -> S037: count=1, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S037: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S037: count=1, prob=1.0000
+  action 7 (noop), total_count=3
+    -> S036: count=1, prob=0.3333
+    -> S037: count=2, prob=0.6667
+  action 8 (craft_planks), total_count=2
+    -> S024: count=2, prob=1.0000
+  action 66 (action_66), total_count=2
+    -> S036: count=2, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S037: count=1, prob=1.0000
+  action 95 (hit_vegetation), total_count=3
+    -> S037: count=3, prob=1.0000
+  action 167 (dig_diagonal), total_count=1
+    -> S037: count=1, prob=1.0000
+
+S038: log_bucket=1, plank_bucket=0, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 2 (move_east), total_count=2
+    -> S038: count=2, prob=1.0000
+  action 7 (noop), total_count=1
+    -> S038: count=1, prob=1.0000
+  action 8 (craft_planks), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S038: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=2
+    -> S038: count=2, prob=1.0000
+
+S039: log_bucket=1, plank_bucket=0, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 8 (craft_planks), total_count=1
+    -> S032: count=1, prob=1.0000
+
+S040: log_bucket=1, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 2 (move_east), total_count=1
+    -> S042: count=1, prob=1.0000
+  action 65 (place_plank), total_count=1
+    -> S019: count=1, prob=1.0000
+
+S041: log_bucket=1, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S041: count=1, prob=1.0000
+  action 65 (place_plank), total_count=1
+    -> S041: count=1, prob=1.0000
+  action 66 (action_66), total_count=1
+    -> S040: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S042: count=1, prob=1.0000
+
+S042: log_bucket=1, plank_bucket=1, stick_bucket=0, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 2 (move_east), total_count=1
+    -> S042: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S041: count=1, prob=1.0000
+  action 7 (noop), total_count=2
+    -> S040: count=1, prob=0.5000
+    -> S042: count=1, prob=0.5000
+  action 9 (craft_sticks), total_count=1
+    -> S044: count=1, prob=1.0000
+  action 60 (pick_up_material), total_count=1
+    -> S042: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=1
+    -> S042: count=1, prob=1.0000
+
+S043: log_bucket=1, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 17 (get_wood), total_count=1
+    -> S044: count=1, prob=1.0000
+  action 50 (climb_up), total_count=1
+    -> S022: count=1, prob=1.0000
+
+S044: log_bucket=1, plank_bucket=1, stick_bucket=1, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 9 (craft_sticks), total_count=1
+    -> S037: count=1, prob=1.0000
+  action 17 (get_wood), total_count=1
+    -> S044: count=1, prob=1.0000
+  action 60 (pick_up_material), total_count=1
+    -> S044: count=1, prob=1.0000
+  action 66 (action_66), total_count=1
+    -> S043: count=1, prob=1.0000
+  action 167 (dig_diagonal), total_count=1
+    -> S044: count=1, prob=1.0000
+
+S045: log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 2 (move_east), total_count=1
+    -> S045: count=1, prob=1.0000
+  action 7 (noop), total_count=1
+    -> S045: count=1, prob=1.0000
+  action 8 (craft_planks), total_count=2
+    -> S024: count=1, prob=0.5000
+    -> S045: count=1, prob=0.5000
+  action 9 (craft_sticks), total_count=1
+    -> S051: count=1, prob=1.0000
+  action 68 (place_dirt), total_count=1
+    -> S045: count=1, prob=1.0000
+  action 69 (dig_forward), total_count=1
+    -> S045: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=1
+    -> S045: count=1, prob=1.0000
+
+S046: log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 50 (climb_up), total_count=1
+    -> S047: count=1, prob=1.0000
+
+S047: log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 1 (move_south), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 2 (move_east), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 3 (move_west), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 4 (mine_below), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 7 (noop), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 8 (craft_planks), total_count=1
+    -> S025: count=1, prob=1.0000
+  action 9 (craft_sticks), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 50 (climb_up), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 60 (pick_up_material), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 65 (place_plank), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 69 (dig_forward), total_count=1
+    -> S047: count=1, prob=1.0000
+  action 70 (mine_stone), total_count=1
+    -> S046: count=1, prob=1.0000
+  action 95 (hit_vegetation), total_count=1
+    -> S047: count=1, prob=1.0000
+
+S048: log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 1 (move_south), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 2 (move_east), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 8 (craft_planks), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 11 (craft_wooden_pickaxe), total_count=1
+    -> S049: count=1, prob=1.0000
+  action 20 (craft_wooden_shovel), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 73 (till_soil), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 96 (break_nodrop), total_count=1
+    -> S048: count=1, prob=1.0000
+  action 161 (dig_below), total_count=1
+    -> S048: count=1, prob=1.0000
+
+S049: log_bucket=1, plank_bucket=1, stick_bucket=2, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=True, has_wooden_sword=True, has_wooden_shovel=True, has_wooden_hoe=True, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 96 (break_nodrop), total_count=1
+    -> S047: count=1, prob=1.0000
+
+S050: log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=2, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 94 (pick_up_planks), total_count=1
+    -> S052: count=1, prob=1.0000
+
+S051: log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=False, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S050: count=1, prob=1.0000
+  action 6 (place_forward), total_count=1
+    -> S051: count=1, prob=1.0000
+  action 65 (place_plank), total_count=1
+    -> S051: count=1, prob=1.0000
+
+S052: log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=False, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 10 (craft_crafting_table), total_count=1
+    -> S055: count=1, prob=1.0000
+
+S053: log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=False, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 60 (pick_up_material), total_count=1
+    -> S055: count=1, prob=1.0000
+
+S054: log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=1, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 9 (craft_sticks), total_count=1
+    -> S028: count=1, prob=1.0000
+
+S055: log_bucket=1, plank_bucket=1, stick_bucket=3, has_crafting_table=True, has_table_nearby=True, has_wooden_pickaxe=False, has_wooden_sword=False, has_wooden_shovel=False, has_wooden_hoe=False, has_wooden_axe=False, wood_distance_bucket=3, water_adjacent=False, cliff_loc=0, is_dead=False
+  action 0 (move_north), total_count=1
+    -> S053: count=1, prob=1.0000
+  action 8 (craft_planks), total_count=1
+    -> S029: count=1, prob=1.0000
+  action 60 (pick_up_material), total_count=1
+    -> S055: count=1, prob=1.0000
+  action 66 (action_66), total_count=1
+    -> S054: count=1, prob=1.0000
