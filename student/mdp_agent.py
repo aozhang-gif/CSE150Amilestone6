@@ -60,6 +60,16 @@ BOT_NAME = os.environ.get("BOT_NAME", "my_bot")
 SAVE_DIR = os.path.join(os.path.dirname(__file__), "..", "results")
 SAVE_EVERY = 5   # write a pkl snapshot every N episodes
 CONVERGENCE_STABLE_REPLANS = 3
+STUCK_ESCAPE_STREAK = 8
+STUCK_RESET_STREAK = 18
+ESCAPE_ACTION_PRIORITY = (
+    96,   # break_nodrop
+    50,   # climb_up
+    69,   # dig_forward
+    165,  # dig_overhang
+    0, 1, 2, 3,  # movement
+    7,    # noop, last resort
+)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -468,11 +478,23 @@ def run():
         all_states.add(state)
         total_reward = 0.0
         done = False
+        repeated_state_streak = 0
 
         while not done:
             # ε-greedy action selection with action-masking
             available_list = list(available) if available else list(range(NUM_ACTIONS))
-            if np.random.random() < epsilon or state not in policy or policy[state] not in available:
+            if repeated_state_streak >= STUCK_RESET_STREAK:
+                print("  [stuck] repeated state; requesting spawn reset")
+                state, info = env.request_reset()
+                available = info.get("available_actions", frozenset(range(NUM_ACTIONS)))
+                all_states.add(state)
+                repeated_state_streak = 0
+                continue
+
+            escape_action = next((a for a in ESCAPE_ACTION_PRIORITY if a in available), None)
+            if repeated_state_streak >= STUCK_ESCAPE_STREAK and escape_action is not None:
+                action = escape_action
+            elif np.random.random() < epsilon or state not in policy or policy[state] not in available:
                 action = np.random.choice(available_list)
             else:
                 action = policy[state]
@@ -485,6 +507,10 @@ def run():
             all_states.add(next_state)
 
             total_reward += reward
+            if next_state == state:
+                repeated_state_streak += 1
+            else:
+                repeated_state_streak = 0
             state = next_state
             available = next_available
 
